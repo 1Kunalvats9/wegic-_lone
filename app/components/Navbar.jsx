@@ -289,12 +289,14 @@ const Navbar = () => {
             <button onClick={() => setIsDrawerOpen(false)}>Log in</button>
           </div>
           <div className="font-semibold mt-4">
-            <button
+           <button
               type="button"
-              className="bg-blue-500 text-white rounded-md py-2 px-6 hover:bg-blue-600 transition-colors"
-              onClick={() => setIsDrawerOpen(false)}
+              style={{ padding: '0 1.5rem', fontWeight: 'bold' }}
+              className="bg-white text-black rounded-md py-4 px-3 hover:translate-y-1 duration-150 transition-all" 
             >
-              <span>Build Your Site</span>
+              <h1 className="py-3 font-medium w-fit items-center">
+                Build Your Site
+              </h1>
             </button>
           </div>
         </div>
